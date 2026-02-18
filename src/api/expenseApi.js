@@ -3,7 +3,7 @@ import axios from "axios";
 const API = axios.create({
   baseURL:
     import.meta.env.VITE_API_URL ||
-    "https://expensechecker-backend.onrender.com"
+    "hhttps://expensechecker-backend1.onrender.com/"
 });
 
 export const createExpense = (data) => API.post("/expenses", data);
